@@ -54,7 +54,7 @@ function NavBar() {
                 <li><Link to='/blocks'>Blocks</Link></li>
               </ul>
             </li>
-            <li><a href='https://bimtrazer.com/' target='_blank' rel='noopener noreferrer'>Contact Us</a></li>
+            <li><a href='#' target='_blank' rel='noopener noreferrer'>Contact Us</a></li>
             <li onClick={handleSignout}><Link to='/'>Sign Out</Link></li>
           </ul>
         </div>
@@ -75,7 +75,7 @@ function NavBar() {
               <li className='min-w-24'><Link to='/blocks'>Blocks</Link></li>
             </ul>
           </li>
-          <li className='mx-3'><a href='https://bimtrazer.com/' target='_blank' rel='noopener noreferrer'>Contact Us</a></li>
+          <li className='mx-3'><a href='#' target='_blank' rel='noopener noreferrer'>Contact Us</a></li>
           <li className='min-w-24' onClick={handleSignout}><Link to='/'>Sign Out</Link></li>
         </ul>
       </div>
